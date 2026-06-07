@@ -1,0 +1,55 @@
+name: Metrics
+
+on:
+  # Actualiza las stats todos los días a las 06:00 UTC (03:00 ART)
+  schedule:
+    - cron: "0 6 * * *"
+  # Permite dispararlo a mano desde la pestaña Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # 1) Tarjeta principal de stats (commits, estrellas, actividad, repos)
+      - name: Overview
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ldamoredev
+          filename: metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Argentina/Buenos_Aires
+          theme: github_dark
+
+      # 2) Lenguajes más usados
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ldamoredev
+          filename: metrics-languages.svg
+          base: ""
+          config_timezone: America/Argentina/Buenos_Aires
+          theme: github_dark
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+
+      # 3) Calendario de actividad de todo el año (reemplaza al streak)
+      - name: Isocalendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ldamoredev
+          filename: metrics-isocalendar.svg
+          base: ""
+          config_timezone: America/Argentina/Buenos_Aires
+          theme: github_dark
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

@@ -116,21 +116,17 @@ I work best in TypeScript-heavy stacks, I think in trade-offs rather than hype, 
 <div align="center">
 
 <!--
-  ⚠️ IMPORTANT — replace "YOUR-VERCEL-INSTANCE.vercel.app" below with your own deployed
-  github-readme-stats instance. The public "github-readme-stats.vercel.app" endpoint is
-  currently paused by its owner, so it renders as a broken image. Self-host in ~5 min:
-    1. Use the "Deploy" button at github.com/anuraghazra/github-readme-stats (deploys to Vercel)
-    2. Create a GitHub token (Settings > Developer settings > PAT) — no scopes needed for public stats
-    3. In Vercel, add an env var  PAT_1 = <your token>  and redeploy
-    4. Paste your instance domain over YOUR-VERCEL-INSTANCE.vercel.app in both URLs below
-  (All theme params are already set — only the hostname needs changing.)
+  Estas imágenes son SVGs estáticos generados por GitHub Actions (lowlighter/metrics)
+  y commiteados en este repo — ver .github/workflows/metrics.yml.
+  No dependen de Vercel ni de ninguna instancia externa, así que no se rompen por rate-limit.
+  Se actualizan automáticamente cada día (y se pueden disparar a mano desde la pestaña Actions).
 -->
-<img height="170" src="https://YOUR-VERCEL-INSTANCE.vercel.app/api?username=ldamoredev&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=c9d1d9&icon_color=5eead4" alt="GitHub stats" />
-<img height="170" src="https://YOUR-VERCEL-INSTANCE.vercel.app/api/top-langs/?username=ldamoredev&layout=compact&langs_count=8&hide=html,css&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=c9d1d9" alt="Top languages" />
+<img src="./metrics.svg" alt="GitHub stats" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ldamoredev&hide_border=true&background=0d1117&stroke=1f2937&ring=2dd4bf&fire=5eead4&currStreakLabel=2dd4bf&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
+<img src="./metrics-languages.svg" alt="Top languages" width="48%" />
+<img src="./metrics-isocalendar.svg" alt="Activity calendar" width="48%" />
 
 </div>
 
