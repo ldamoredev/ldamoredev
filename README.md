@@ -15,8 +15,8 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/lautaro-damore/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://blog.ldamore.com/"><img src="https://img.shields.io/badge/Blog-0F766E?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog" /></a>
-<a href="http://lautarodamore.com/"><img src="https://img.shields.io/badge/Portfolio-1E293B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://ldamoredev.github.io/cibersecurity-notes/"><img src="https://img.shields.io/badge/Cybersecurity_Atlas-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Cybersecurity Atlas" /></a>
+<a href="https://ldamoredev.github.io/ai-notes"><img src="https://img.shields.io/badge/AI_Atlas-0F766E?style=for-the-badge&logo=obsidian&logoColor=white" alt="AI Atlas" /></a>
 <img src="https://komarev.com/ghpvc/?username=ldamoredev&style=for-the-badge&color=0d9488&label=Profile+views" alt="Profile views" />
 
 </div>
@@ -115,8 +115,18 @@ I work best in TypeScript-heavy stacks, I think in trade-offs rather than hype, 
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ldamoredev&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=c9d1d9&icon_color=5eead4" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ldamoredev&layout=compact&langs_count=8&hide=html,css&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=c9d1d9" alt="Top languages" />
+<!--
+  ⚠️ IMPORTANT — replace "YOUR-VERCEL-INSTANCE.vercel.app" below with your own deployed
+  github-readme-stats instance. The public "github-readme-stats.vercel.app" endpoint is
+  currently paused by its owner, so it renders as a broken image. Self-host in ~5 min:
+    1. Use the "Deploy" button at github.com/anuraghazra/github-readme-stats (deploys to Vercel)
+    2. Create a GitHub token (Settings > Developer settings > PAT) — no scopes needed for public stats
+    3. In Vercel, add an env var  PAT_1 = <your token>  and redeploy
+    4. Paste your instance domain over YOUR-VERCEL-INSTANCE.vercel.app in both URLs below
+  (All theme params are already set — only the hostname needs changing.)
+-->
+<img height="170" src="https://YOUR-VERCEL-INSTANCE.vercel.app/api?username=ldamoredev&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=c9d1d9&icon_color=5eead4" alt="GitHub stats" />
+<img height="170" src="https://YOUR-VERCEL-INSTANCE.vercel.app/api/top-langs/?username=ldamoredev&layout=compact&langs_count=8&hide=html,css&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=c9d1d9" alt="Top languages" />
 
 <br/>
 
@@ -130,10 +140,11 @@ I work best in TypeScript-heavy stacks, I think in trade-offs rather than hype, 
 
 ### 🤝 Let's connect
 
-I'm always up for sharing notes on TypeScript, AI engineering and software craftsmanship.
+I'm always up for sharing notes on TypeScript, AI engineering and software craftsmanship — a lot of it lives in my public atlases.
 
 <a href="https://www.linkedin.com/in/lautaro-damore/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://blog.ldamore.com/"><img src="https://img.shields.io/badge/Read_my_Blog-0F766E?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog" /></a>
+<a href="https://ldamoredev.github.io/cibersecurity-notes/"><img src="https://img.shields.io/badge/Cybersecurity_Atlas-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Cybersecurity Atlas" /></a>
+<a href="https://ldamoredev.github.io/ai-notes"><img src="https://img.shields.io/badge/AI_Atlas-0F766E?style=for-the-badge&logo=obsidian&logoColor=white" alt="AI Atlas" /></a>
 
 <sub>🏆 Arctic Code Vault Contributor — code preserved for future generations.</sub>
 
