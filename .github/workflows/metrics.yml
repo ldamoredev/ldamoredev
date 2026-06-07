@@ -24,7 +24,12 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Argentina/Buenos_Aires
-          theme: github_dark
+          extras_css: |
+            svg { background: #0d1117; }
+            svg { color: #c9d1d9; }
+            h1, h2 { color: #2dd4bf; }
+            .field svg { fill: #5eead4; }
+            footer { color: #8b949e; }
 
       # 2) Lenguajes más usados
       - name: Languages
@@ -35,11 +40,15 @@ jobs:
           filename: metrics-languages.svg
           base: ""
           config_timezone: America/Argentina/Buenos_Aires
-          theme: github_dark
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
+          extras_css: |
+            svg { background: #0d1117; }
+            svg { color: #c9d1d9; }
+            h1, h2 { color: #2dd4bf; }
+            footer { color: #8b949e; }
 
       # 3) Calendario de actividad de todo el año (reemplaza al streak)
       - name: Isocalendar
@@ -50,6 +59,10 @@ jobs:
           filename: metrics-isocalendar.svg
           base: ""
           config_timezone: America/Argentina/Buenos_Aires
-          theme: github_dark
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          extras_css: |
+            svg { background: #0d1117; }
+            svg { color: #c9d1d9; }
+            h1, h2 { color: #2dd4bf; }
+            footer { color: #8b949e; }
