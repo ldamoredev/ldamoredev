@@ -116,17 +116,20 @@ I work best in TypeScript-heavy stacks, I think in trade-offs rather than hype, 
 <div align="center">
 
 <!--
-  Estas imágenes son SVGs estáticos generados por GitHub Actions (lowlighter/metrics)
-  y commiteados en este repo — ver .github/workflows/metrics.yml.
-  No dependen de Vercel ni de ninguna instancia externa, así que no se rompen por rate-limit.
+  metrics.svg y metrics-languages.svg son SVGs estáticos generados por GitHub Actions
+  (lowlighter/metrics) y commiteados en este repo — ver .github/workflows/metrics.yml.
   Se actualizan automáticamente cada día (y se pueden disparar a mano desde la pestaña Actions).
+  El streak de abajo es un servicio externo (github-readme-streak-stats), no un SVG commiteado.
 -->
 <img src="./metrics.svg" alt="GitHub stats" />
 
 <br/>
 
-<img src="./metrics-languages.svg" alt="Top languages" width="48%" />
-<img src="./metrics-isocalendar.svg" alt="Activity calendar" width="48%" />
+<img src="./metrics-languages.svg" alt="Top languages" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ldamoredev&hide_border=true&background=0d1117&stroke=1f2937&ring=2dd4bf&fire=5eead4&currStreakLabel=2dd4bf&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
 
 </div>
 
