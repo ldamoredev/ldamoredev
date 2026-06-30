@@ -105,7 +105,7 @@ I work best in TypeScript-heavy stacks, I think in trade-offs rather than hype, 
 | **[brain-sync](https://github.com/ldamoredev/brain-sync)** | Knowledge-sync tooling built in TypeScript | `TypeScript` |
 | **[ai-notes](https://github.com/ldamoredev/ai-notes)** | Notes & experiments from my AI engineering learning path | `Python` |
 | **[cibersecurity-notes](https://github.com/ldamoredev/cibersecurity-notes)** | Operational cybersecurity knowledge vault — payloads, CVEs & workflows | `Obsidian` |
-| **[tanstack-guide-example](https://github.com/ldamoredev/tanstack-guide-example)** | Reference example for working with the TanStack ecosystem | `TypeScript` |
+| **[lowlevel-notes](https://github.com/ldamoredev/lowlevel-notes)** | Notes & experiments from my journey in low and metal programming | `TypeScript` |
 
 > _Tip: tweak the one-liners for `brain-sync` and a couple of others — I inferred those from the repo names._
 
